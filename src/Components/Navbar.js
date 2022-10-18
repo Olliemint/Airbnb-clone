@@ -1,9 +1,12 @@
 import React from 'react'
-
+import "./style.css"
 const Navbar = () => {
   return (
-    <div>
-      <img src="./images/airbnb1.png" alt="airbnb logo" />
+    <div className="navbar">
+      <img className='nav-logo'
+        src="https://raw.githubusercontent.com/Olliemint/Airbnb-experiences/main/src/images/airbnb1.png"
+        alt=""
+      />
     </div>
   );
 }
